@@ -1,0 +1,62 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+.container{
+  max-width: 1200px;
+}
+.hero{
+  background-image: url(./img/watches.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right bottom;
+  margin-bottom: 100px;
+
+}
+.hero__text{
+  width: 500px;
+}
+.hero__text-desc{
+  border-left: 2px solid rgb(93, 88, 88);
+   
+}
+
+.about{
+ margin-bottom: 50px;
+  
+}
+.about__item{
+  gap: 40px ;
+  width: 300px;
+ 
+}
+.brand{
+  margin-bottom: 50px;
+  
+}
+.nikeband{
+  gap: 40px;
+  width: 900px;
+}
+.brand__desc{
+  width: 400px;
+}
+.brand__desc-text{
+  border-left: 3px solid rgb(93, 88, 88);
+  
+}
+.last{
+  background-image: url(./img/runners.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.last__desc{
+  width: 300px;
+ margin-left: auto;
+}
+.last__desc-texty{
+  border-left: 3px solid white;
+  padding-left: 10px;
+}
